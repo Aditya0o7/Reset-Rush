@@ -1,0 +1,48 @@
+.counter {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    position: relative;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reset-button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: top 0.3s ease, left 0.3s ease, transform 0.2s ease;
+  }
+  
+  .reset-button:hover {
+    transform: scale(1.1);
+  }
+  
