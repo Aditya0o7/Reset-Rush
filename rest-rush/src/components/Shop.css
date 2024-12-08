@@ -1,0 +1,31 @@
+.shop {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .shop h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .upgrade {
+    margin-bottom: 10px;
+  }
+  
+  .upgrade button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upgrade button:hover {
+    background-color: #005f75;
+  }
+  
