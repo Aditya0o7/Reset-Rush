@@ -31,16 +31,13 @@ const Shop = ({ currency, setCurrency, setIncomePerClick, setResetSpeed, trapRes
     if (currency >= trapCost) {
       setCurrency((prev) => prev - trapCost);
       setTrapCost((prev) => prev * 2);
-      trapResetButton(); // Call function to freeze Reset button
+      trapResetButton();
     }
   };
-
-  // Purchase logic for Decrement Boost
   const handleDecrementBoost = () => {
     if (currency >= decrementBoostCost) {
       setCurrency((prev) => prev - decrementBoostCost);
       setDecrementBoostCost((prev) => prev * 2);
-      // Implement specific decrement boost logic, e.g., reduce penalties or add minor currency
     }
   };
 
